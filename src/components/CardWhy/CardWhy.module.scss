@@ -1,0 +1,26 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+    
+    h3 {
+        color: #fff;
+        text-align: left;
+        padding-bottom: 12px;
+    }
+    p {
+        color: #B0B0B2;
+        max-height: 112px;
+        height: 100%;
+        max-width: 300px;
+    }
+    img {
+        max-width: 60px;
+        padding-bottom: 40px;
+    }
+
+}
+
+.card {
+    max-width: 320px;
+    
+}

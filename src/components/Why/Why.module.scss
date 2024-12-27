@@ -1,0 +1,51 @@
+.why {
+    .title {
+        text-align: center;
+        animation: borderMove 3s infinite linear;
+    }
+    h1 {
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+        color: #fff;
+        // font-size: 48px;
+        font-size: clamp(1.875rem, 1.466rem + 2.05vw, 3rem);
+        padding-bottom: 40px;
+    }
+    padding: 90px 0;
+    background-image: url(/why-bgi.png);
+    background-repeat: no-repeat;
+    background-position-y: -90px;
+    background-size: contain;
+    
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+    background-color: #252532;
+    padding: 40px 10px 50px;
+    border-top: 1px solid #FFFFFF4D;
+    border-left: 1px solid #FFFFFF4D;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+}
+
+@keyframes borderMove {
+    0%,
+    100% {
+      color: #0cbaf1;
+    }
+    70% {
+      color: #0a85aa;
+    }
+    50% {
+      color: #e95ce9;
+    }
+    30% {
+      color: #950d95;
+    }
+}
