@@ -1,0 +1,74 @@
+.name {
+    width: 290px;
+    height: 380px;
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0px;
+    // background-image: url(/public/team1.png);
+    // background-repeat: no-repeat;
+    // background-size: cover;
+
+    h3, p {
+      z-index: 2;
+    }
+    
+}
+
+.teamcard {
+  
+  img {
+    position: relative;
+    bottom: 412px;
+    left: 5px;
+    width: 95%;
+    height: 50%;
+    transition: filter 0.3s ease; /* Плавный переход */
+    border: 2px solid;
+    border-image-source: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    border-image-slice: 1;
+    animation: borderMove 2s infinite linear;
+    padding: 5px;
+    
+}
+
+img:hover {
+    filter: brightness(70%); /* Затемнение при наведении */
+}
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes borderMove {
+    0%,
+    100% {
+      border-image-source: linear-gradient(90deg, #0cbaf1, #e95ce9);
+    }
+    50% {
+      border-image-source: linear-gradient(90deg, #e95ce9, #0cbaf1);
+    }
+  }

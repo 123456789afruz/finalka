@@ -4,6 +4,9 @@ import Hero from './components/Hero/Hero'
 import Header from './components/Header/Header'
 import Learn from './components/Learn/Learn'
 import Why from './components/Why/Why'
+import Choose from './components/Choose/Choose'
+import Team from './components/Team/Team'
+import Partners from './components/Partners/Partners'
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <Hero/>
       <Learn/>
       <Why/>
+      <Choose/>
+      <Team/>
+      <Partners/>
     </>
   )
 }
