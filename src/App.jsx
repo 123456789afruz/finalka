@@ -7,6 +7,7 @@ import Why from './components/Why/Why'
 import Choose from './components/Choose/Choose'
 import Team from './components/Team/Team'
 import Partners from './components/Partners/Partners'
+import FAQ from './components/FAQ/FAQ'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Choose/>
       <Team/>
       <Partners/>
+      <FAQ/>
     </>
   )
 }
